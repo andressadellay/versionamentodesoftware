@@ -28,4 +28,16 @@
         this.total = total;
  
     } 
+
+    public Mercado(float preco, int qte, float total){
+        this.preco = 5;
+        this.qte = 3;
+        this.total = total;
+    }
+
+    public static float preco(float preco, int qte, float total){
+        total = preco*qte;
+        return total;
+    }
+
 }
